@@ -1,8 +1,8 @@
-##Dataset Description
+Dataset Description
 
 The dataset used for this project consists of wearable sensor data collected for human activity and fall detection tasks. It contains multivariate time-series data from accelerometer and gyroscope sensors, including both normal daily activities and simulated fall events.
 
-##The dataset includes:
+The dataset includes:
 
 -Forward falls
 -Backward falls
