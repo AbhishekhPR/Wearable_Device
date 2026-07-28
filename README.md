@@ -1,15 +1,27 @@
-Dataset Description
+## Dataset Description
 
-The dataset used for this project consists of wearable sensor data collected for human activity and fall detection tasks. It contains multivariate time-series data from accelerometer and gyroscope sensors, including both normal daily activities and simulated fall events.
+The dataset used in this project contains wearable sensor data collected for human activity recognition and fall detection.
 
-The dataset includes:
+It consists of multivariate time-series readings captured using:
 
--Forward falls
--Backward falls
--Lateral falls
--Non-fall daily activities
+- Accelerometer sensors
+- Gyroscope sensors
 
-Sensor readings were stored in CSV format and preprocessed for machine learning training. The data was used to train lightweight deep learning models, including an optimized mini-LSTM model designed for deployment on memory-constrained embedded hardware such as the STM32 microcontroller.
+The dataset includes both simulated fall events and normal daily activities.
 
-Dataset link:
-https://drive.google.com/drive/folders/1WpX7SUdbJIqWTHmMbOCoVKpSrWPMS76G
+### Activity Categories
+
+- **Forward Falls**
+- **Backward Falls**
+- **Lateral Falls**
+- **Non-Fall Daily Activities**
+
+The sensor readings were stored in CSV format and preprocessed before model training. The data was used to train lightweight deep learning models for real-time fall detection.
+
+An optimised mini-LSTM model was also developed for deployment on resource-constrained embedded hardware, including STM32 microcontrollers.
+
+## Dataset Access
+
+The dataset can be accessed here:
+
+[View Dataset on Google Drive](https://drive.google.com/drive/folders/1WpX7SUdbJIqWTHmMbOCoVKpSrWPMS76G)
